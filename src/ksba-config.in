@@ -121,7 +121,7 @@ fi
 
 if test "$echo_cflags" = "yes"; then
     includes=""
-    if test "@includedir@" != "/usr/include" ; then
+    if test "@includedir@" != "/@unixroot/usr/include" ; then
       includes="-I@includedir@"
     fi
     tmp=""
@@ -135,7 +135,7 @@ fi
 
 if test "$echo_libs" = "yes"; then
     libdirs=""
-    if test "@libdir@" != "/usr/lib" ; then
+    if test "@libdir@" != "/@unixroot/usr/lib" ; then
       libdirs="-L@libdir@"
     fi
     tmp=""
