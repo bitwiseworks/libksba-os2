@@ -4,7 +4,7 @@
 .libs/
 /aclocal.m4
 /autom4te.cache
-/config.h.in
+/config.h.in*
 /config.h
 /config.log
 /config.status
@@ -26,3 +26,21 @@
 /tests/Makefile.in
 /src/asn1-parse.c
 /VERSION
+
+# ignore regenerated files
+INSTALL
+build-aux/compile
+build-aux/config.guess
+build-aux/config.sub
+build-aux/depcomp
+build-aux/install-sh
+build-aux/ltmain.sh
+build-aux/mdate-sh
+build-aux/missing
+build-aux/texinfo.tex
+build-aux/ylwrap
+m4/libtool.m4
+m4/ltoptions.m4
+m4/ltsugar.m4
+m4/ltversion.m4
+m4/lt~obsolete.m4
