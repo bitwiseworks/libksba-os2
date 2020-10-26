@@ -110,7 +110,6 @@ LT_PREREQ([2.2.6])
 LT_INIT([win32-dll disable-static])
 LT_LANG([Windows Resource])
 
-AM_MAINTAINER_MODE
 
 
 AC_SUBST(LIBKSBA_LT_CURRENT)
